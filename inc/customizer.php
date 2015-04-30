@@ -661,7 +661,7 @@ function Paneltopage_customize_css()
 						.oddcolors:nth-of-type(even) h2,
 						.oddcolors:nth-of-type(even) h1.entry-title,
 						.oddcolors:nth-of-type(even) h2.entry-title,
-						.oddcolors:nth-of-type(even) h2.entry-title a{ color:<?php echo get_theme_mod('odd_panel_title_color', '#f36f57'); ?>;}
+						.oddcolors:nth-of-type(even) h2.entry-title a{ color:<?php echo get_theme_mod('odd_panel_title_color', '#ffffff'); ?>;}
 						.oddcolors:nth-of-type(even) { color:<?php echo get_theme_mod('odd_panel_text_color', '#ffffff'); ?>;}
 						.oddcolors:nth-of-type(even) a { color:<?php echo get_theme_mod('odd_panel_link_color', '#ffffff'); ?>;}
 						.oddcolors:nth-of-type(even) .fancy span { color:<?php echo get_theme_mod('odd_panel_cta_text_color', '#333333'); ?>;}
@@ -671,13 +671,13 @@ function Paneltopage_customize_css()
 							border-top: 1px solid <?php echo get_theme_mod('odd_panel_line_border_color', '#333333'); ?>;}
 
 
-						.oddcolors:nth-of-type(odd) { background-color:<?php echo get_theme_mod('even_panel_color', '#f36f57'); ?>;}
+						.oddcolors:nth-of-type(odd) { background-color:<?php echo get_theme_mod('even_panel_color', '#ffffff'); ?>;}
 						.oddcolors:nth-of-type(odd) h2,
 						.oddcolors:nth-of-type(odd) h1.entry-title,
 						.oddcolors:nth-of-type(odd) h2.entry-title,
 						.oddcolors:nth-of-type(odd) h2.entry-title a{ color:<?php echo get_theme_mod('even_panel_title_color', '#f36f57'); ?>;}
-						.oddcolors:nth-of-type(odd) { color:<?php echo get_theme_mod('even_panel_text_color', '#ffffff'); ?>;}
-						.oddcolors:nth-of-type(odd) a { color:<?php echo get_theme_mod('even_panel_link_color', '#ffffff'); ?>;}
+						.oddcolors:nth-of-type(odd) { color:<?php echo get_theme_mod('even_panel_text_color', '#f36f57'); ?>;}
+						.oddcolors:nth-of-type(odd) a { color:<?php echo get_theme_mod('even_panel_link_color', '#f36f57'); ?>;}
 						.oddcolors:nth-of-type(odd) .fancy span { color:<?php echo get_theme_mod('even_panel_cta_text_color', '#333333'); ?>;}
 						.oddcolors:nth-of-type(odd) .fancy span:before,
 						.oddcolors:nth-of-type(odd) .fancy span:after {
