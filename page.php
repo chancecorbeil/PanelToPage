@@ -13,7 +13,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main oddcolors" role="main">
+		<main id="main" class="site-main oddcolors col-md-12" role="main">
 
 			<div class="wrap">
 

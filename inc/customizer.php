@@ -643,7 +643,7 @@ function Paneltopage_customize_css()
 						.oddcolors:nth-of-type(even) .entry-title a:hover,
 						.entry-title a:hover, a:hover, a:focus, a h2:hover,
 						.oddcolors a h2:hover,
-						h1 a:hover, h2.site-title a:hover { color:<?php echo get_theme_mod('hover_color', '#f36f57'); ?>;}
+						h1 a:hover, h2.site-title a:hover { color:<?php echo get_theme_mod('hover_color', '#5a372b'); ?>;}
 						.main-navigation,
 						.main-navigation ul ul { background-color:<?php echo get_theme_mod('main_nav_background_color', '#5a372b'); ?>;}
 						.main-navigation li a { color:<?php echo get_theme_mod('main_nav_color', '#FFFFFF'); ?>;}
@@ -676,7 +676,7 @@ function Paneltopage_customize_css()
 						.oddcolors:nth-of-type(odd) h1.entry-title,
 						.oddcolors:nth-of-type(odd) h2.entry-title,
 						.oddcolors:nth-of-type(odd) h2.entry-title a{ color:<?php echo get_theme_mod('even_panel_title_color', '#f36f57'); ?>;}
-						.oddcolors:nth-of-type(odd) { color:<?php echo get_theme_mod('even_panel_text_color', '#f36f57'); ?>;}
+						.oddcolors:nth-of-type(odd) { color:<?php echo get_theme_mod('even_panel_text_color', '#333333'); ?>;}
 						.oddcolors:nth-of-type(odd) a { color:<?php echo get_theme_mod('even_panel_link_color', '#f36f57'); ?>;}
 						.oddcolors:nth-of-type(odd) .fancy span { color:<?php echo get_theme_mod('even_panel_cta_text_color', '#333333'); ?>;}
 						.oddcolors:nth-of-type(odd) .fancy span:before,

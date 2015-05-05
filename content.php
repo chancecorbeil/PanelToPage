@@ -4,7 +4,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(oddcolors); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('oddcolors col-md-12'); ?>>
 	<header class="entry-header wrap">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 
