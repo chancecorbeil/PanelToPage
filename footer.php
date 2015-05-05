@@ -20,7 +20,7 @@
 			<a href="#top" class="rocketup">
 				<?php
 				echo '<img src="';
-				echo get_theme_mod( 'back_to_top_graphic', 'http://pinkyupwebdesign.com/wp/wp-content/themes/PanelToPage/images/up-arrow.png' );
+				echo get_theme_mod( 'back_to_top_graphic', '/wp-content/themes/PanelToPage/images/up-arrow.png' );
 				echo '" />';
 				?>
 			</a>

@@ -382,7 +382,7 @@ $wp_customize->add_control(
 // Add Back To Top Arrow Graphic
 
 $wp_customize->add_setting('back_to_top_graphic', array(
-		'default'           => 'http://pinkyupwebdesign.com/wp/wp-content/themes/PanelToPage/images/up-arrow.png',
+		'default'           => '/wp-content/themes/PanelToPage/images/up-arrow.png',
 ));
 
 $wp_customize->add_control( new WP_Customize_Image_Control($wp_customize, 'back_to_top_graphic', array(
